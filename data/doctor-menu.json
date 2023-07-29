@@ -1,0 +1,57 @@
+[{
+    "name": "首页",
+    "icon": "&#xe68e;",
+    "url": "doctor-index.php?userID="+sessionStorage.userID,
+    "hidden": false,
+    "list": []
+}, {
+    "name": "个人信息",
+    "icon": "&#xe66f;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "查看个人信息",
+        "url": "doctor-infocheck.php?userID="+sessionStorage.userID
+    }, {
+        "name": "修改个人信息",
+        "url": "doctor-infochg.php?userID="+sessionStorage.userID
+    }]
+}, {
+    "name": "患者信息查询",
+    "icon": "&#xe770;",
+    "url": "doctor-patient.php?userID="+sessionStorage.userID,
+    "hidden": false,
+    "list": []
+}, {
+    "name": "挂号查询",
+    "icon": "&#xe609;",
+    "url": "doctor-guahao.php?userID="+sessionStorage.userID,
+    "hidden": false,
+    "list": []
+}, {
+    "name": "诊断",
+    "icon": "&#xe857;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "查看病历",
+        "url": "doctor-bingli.php?userID="+sessionStorage.userID
+    }, {
+        "name": "开具处方",
+        "url": "doctor-chufang.php?userID="+sessionStorage.userID
+    }, {
+        "name": "安排检查",
+        "url": "doctor-jiancha.php?userID="+sessionStorage.userID
+    }, {
+        "name": "安排检验",
+        "url": "doctor-jianyan.php?userID="+sessionStorage.userID
+    }, {
+        "name": "开具药品",
+        "url": "doctor-medicine.php?userID="+sessionStorage.userID
+    }]
+}, {
+    "name": "退出登录",
+    "icon": "&#xe65c;",
+    "url": "doctor-out.html",
+    "list": []
+}]

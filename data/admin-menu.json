@@ -1,0 +1,84 @@
+[{
+    "name": "首页",
+    "icon": "&#xe68e;",
+    "url": "admin-index.html",
+    "hidden": false,
+    "list": []
+}, {
+    "name": "挂号",
+    "icon": "&#xe609;",
+    "url": "admin-guahao.html",
+    "hidden": false,
+    "list": []
+}, {
+    "name": "检查检验",
+    "icon": "&#xe857;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "录入检查结果",
+        "url": "admin-jiancha.html"
+    }, {
+        "name": "录入检验结果",
+        "url": "admin-jianyan.html"
+    }]
+}, {
+    "name": "手术",
+    "icon": "&#xe857;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "查询手术",
+        "url": "admin-querysurgery.html"
+    }, {
+        "name": "安排手术",
+        "url": "admin-arrangesurgery.html"
+    }, {
+        "name": "录入结果",
+        "url": "admin-surgeryresult.html"
+    }]
+}, {
+    "name": "病房",
+    "icon": "&#xe857;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "查询病房",
+        "url": "admin-queryroom.html"
+    }, {
+        "name": "安排病房",
+        "url": "admin-arrangeroom.html"
+    }]
+}, {
+    "name": "药品",
+    "icon": "&#xe857;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "查询库存",
+        "url": "admin-querymedicine.html"
+    }, {
+        "name": "领取药材",
+        "url": "admin-medicineout.html"
+    }, {
+        "name": "药材入库",
+        "url": "admin-medicinein.html"
+    }]
+}, {
+    "name": "费用",
+    "icon": "&#xe65e;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "治疗费用",
+        "url": "admin-medicalfee.html"
+    }, {
+        "name": "病房费用",
+        "url": "admin-roomfee.html"
+    }]
+}, {
+    "name": "退出登录",
+    "icon": "&#xe65c;",
+    "url": "admin-out.html",
+    "list": []
+}]

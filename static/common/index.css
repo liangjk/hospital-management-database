@@ -1,0 +1,38 @@
+
+body {
+    background: #179898 url(./bj.png) repeat;
+}
+
+.type {
+    box-shadow: 0px 0px 15px #ccc;
+    width: 260px;
+    margin-top: 200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 60px 80px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -210px;
+    margin-left: -205px;
+}
+
+.type h2 {
+    font-size: 28px;
+    font-weight: 100;
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.type .back{
+    float: right;
+    color: #666;
+}
+
+.item {
+	font-size: 20px;
+    font-weight: 100;
+	text-align: center;
+	color: #009688
+}

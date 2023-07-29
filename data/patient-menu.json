@@ -1,0 +1,66 @@
+[{
+    "name": "首页",
+    "icon": "&#xe68e;",
+    "url": "patient-index.php?userID="+sessionStorage.userID,
+    "hidden": false,
+    "list": []
+}, {
+    "name": "个人信息",
+    "icon": "&#xe66f;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "查看个人信息",
+        "url": "patient-infocheck.php?userID="+sessionStorage.userID
+    }, {
+        "name": "修改个人信息",
+        "url": "patient-infochg.php?userID="+sessionStorage.userID
+    }]
+}, {
+    "name": "医生信息查询",
+    "icon": "&#xe770;",
+    "url": "patient-doctor.php?userID="+sessionStorage.userID,
+    "hidden": false,
+    "list": []
+}, {
+    "name": "挂号查询",
+    "icon": "&#xe609;",
+    "url": "patient-guahao.php?userID="+sessionStorage.userID,
+    "hidden": false,
+    "list": []
+}, {
+    "name": "查看病历",
+    "icon": "&#xe857;",
+    "url": "patient-bingli.php?userID="+sessionStorage.userID,
+    "hidden": false,
+    "list": []
+}, {
+    "name": "住院情况",
+    "icon": "&#xe857;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "病房情况",
+        "url": "patient-room.php?userID="+sessionStorage.userID
+    }, {
+        "name": "手术情况",
+        "url": "patient-surgery.php?userID="+sessionStorage.userID
+    }]
+}, {
+    "name": "费用情况",
+    "icon": "&#xe65e;",
+    "url": "",
+    "hidden": false,
+    "list": [{
+        "name": "治疗费用",
+        "url": "patient-medicalfee.php?userID="+sessionStorage.userID
+    }, {
+        "name": "病房费用",
+        "url": "patient-roomfee.php?userID="+sessionStorage.userID
+    }]
+}, {
+    "name": "退出登录",
+    "icon": "&#xe65c;",
+    "url": "patient-out.html",
+    "list": []
+}]
